@@ -11,6 +11,6 @@ eventEmitter.on('doorOpen1', function (msg) {
 
 
 eventEmitter.emit('doorOpen', 'ring ring');
-eventEmitter.emit('doorOpen1', 'ring ring');
+eventEmitter.emit('doorOpen1', 'ring1 ring1');
 
 
